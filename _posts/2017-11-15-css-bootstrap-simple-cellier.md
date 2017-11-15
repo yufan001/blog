@@ -1,5 +1,5 @@
 ---
-title: '如何使用Bootstrap创建有逼格的web界面'
+title: '使用Bootstrap创建有逼格的web界面'
 layout: post
 tags:
     - bootstrap 
@@ -7,16 +7,13 @@ tags:
     - css
     - web
 ---
-我和大家一样，打算在知乎上找一个有“格调”的jekyll的模板，嗯，找到这个帖子[知乎——有哪些简洁明快的 Jekyll 模板？](https://www.zhihu.com/question/20223939)。看到了一些同学的推荐，[cellier](http://cellier.me/blog/)这个博客样式。真的漂亮！但没有找到cellier同学的博客源码，于是我使用Bootstrap来实现了一把。使用Bootstrap没有其它理由，纯是因为我只听过她。好吧，谁叫我是个后端程序员呢！
-
-现在这个主题已经做成一个基于jekyll模板进行开源，这里是地址：[github-simplist-jekyll-template](https://github.com/Zuofan/jekyll-blog-template)，希望各位喜欢。
+在决定写博客后，开始寻找博客的存放地点，本来还在打算在csdn和博客园之间挑一个好了，等以后有空再把自己搭建一个把博客搬过去。
+但是却在后面逐渐发现这两个网站的一些不足，碰巧发现一篇文章描述了如何用jekyll在github搭建博客，于是开始学习maskdown语言和jekyll的一些语法，结合一些前辈的经验和模板开始搭建自己的博客。
 <!--more-->
 
 <div class="table-contents">table of contents@TOC</div>
 # 概述
-如果要看原主人的BLOG，请点击[cellier](http://cellier.me/blog/)。如果我的做法冒犯到原作者，请联系我告诉我怎么做！
 
-我主要模仿了主界面的文章列表、Blog的文章页面。
 
 文章列表页面，我主要使用了futura-pt字体，没有使用Hypatia-Sans-Pro-ExtraLight字体，主要是因为如果有标签是中文的话，其显示效果有别于英文。 下图是主界面的文章列表：
 
